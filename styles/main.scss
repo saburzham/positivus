@@ -1,2 +1,7 @@
 @import "./base/normalize", "./base/fonts", "./base/mixins", "./base/media",
   "./base/variables", "./base/utils", "./base/globals";
+
+@import "./components/button", "./components/burger-button",
+  "./components/mobile-overlay", "./components/cross-button";
+
+@import "./blocks/header";
