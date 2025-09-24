@@ -2,6 +2,6 @@
   "./base/variables", "./base/utils", "./base/globals";
 
 @import "./components/button", "./components/burger-button",
-  "./components/mobile-overlay", "./components/cross-button";
+  "./components/cross-button", "./components/mobile-overlay";
 
-@import "./blocks/header";
+@import "./blocks/header", "./blocks/section", "./blocks/hero";
