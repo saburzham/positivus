@@ -1,8 +1,9 @@
 @import "./base/normalize", "./base/fonts", "./base/mixins", "./base/media",
-  "./base/variables", "./base/utils", "./base/globals";
+  "./base/variables", "./base/utils/utils", "./base/globals";
 
 @import "./components/button", "./components/burger-button",
   "./components/cross-button", "./components/mobile-overlay",
   "./components/service-card", "./components/banner";
 
-@import "./blocks/header", "./blocks/section", "./blocks/hero";
+@import "./blocks/header", "./blocks/section", "./blocks/hero",
+  "./blocks/studies";

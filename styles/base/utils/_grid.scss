@@ -1,3 +1,5 @@
+@use "../media" as media;
+
 .grid {
   --gridColumns: 1;
 
@@ -5,7 +7,7 @@
   grid-template-columns: repeat(var(--gridColumns), 1fr);
   gap: 40px;
 
-  @include mobile {
+  @include media.mobile {
     gap: 30px;
   }
 
@@ -16,7 +18,7 @@
   }
 
   &--2 {
-    @include tablet {
+    @include media.tablet {
       --gridColumns: 1;
     }
   }
